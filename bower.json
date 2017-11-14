@@ -1,0 +1,27 @@
+{
+  "name": "Mantis-css",
+  "version": "0.1.5",
+  "homepage": "https://github.com/caprado/mantis-CSS-framework",
+  "authors": [
+    "Christian Prado <chris.a.prado@gmail.com>"
+  ],
+  "description": "css framework meant to serve as a starter/boilerplate in development as well as a prototypical tool for my projects",
+  "main": "dist/mantis.css",
+  "keywords": [
+    "css",
+    "framework",
+    "less",
+    "grid"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "**.html",
+    "**/.**"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.x"
+  }
+}
