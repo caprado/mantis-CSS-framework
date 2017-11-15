@@ -30,17 +30,20 @@
 .pull-right {
   float: right;
 }
+.pull-left {
+  float: left;
+}
 /**
 TYPOGRAPHY
 ----
 This section describes the base type elements
 including type modifiers. Some of the styling
-has been borrowed from Bootstrap, Foundation and Bulma.
+has been borrowed from Bootstrap and Foundation.
 
 TODO:
 
 * media queries
-* expand "other device elements"
+* expand "other elements"
 
 **/
 *,
@@ -58,13 +61,13 @@ body {
 }
 a {
   text-decoration: none;
-  color: #b5512d;
+  color: #07889b;
 }
 a.secondary {
-  color: #4965d6;
+  color: #66b9bf;
 }
 a.secondary:hover {
-  color: #3453d1;
+  color: #54b1b7;
 }
 a.muted {
   color: #222222;
@@ -77,7 +80,7 @@ a.no-underline:hover {
 }
 a:hover {
   text-decoration: underline;
-  color: #a14828;
+  color: #067383;
 }
 h1,
 h2,
@@ -88,7 +91,7 @@ h6 {
   margin: 0.75em 0;
   line-height: 1.5em;
   font-weight: bold;
-  color: #b5512d;
+  color: #07889b;
   text-rendering: optimizelegibility;
   font-family: Georgia, serif;
 }
@@ -178,7 +181,7 @@ hr {
   clear: both;
 }
 hr.hr-highlight {
-  border-top: 1px solid #b5512d;
+  border-top: 1px solid #07889b;
 }
 hr.hr-dark {
   border-top: 1px solid #222222;
@@ -266,12 +269,15 @@ img {
 .col-10,
 .col-11,
 .col-12 {
-  margin: 0 3% 0 0;
+  margin: 0 2% 0 0;
   display: block;
   float: left;
 }
 .last {
   margin: 0%;
+}
+.first {
+  margin-left: 0.5%;
 }
 .shaded {
   background-color: rgba(0, 0, 0, 0.3);
@@ -281,7 +287,7 @@ img {
   width: 5.5%;
 }
 .col-2 {
-  width: 14%;
+  width: 13%;
 }
 .col-3 {
   width: 22.5%;
@@ -357,19 +363,19 @@ img {
   padding: .25em .75em;
 }
 .button.secondary {
-  background: #4965d6;
+  background: #66b9bf;
   color: #ffffff;
 }
 .button.secondary:hover {
-  background: #3453d1;
+  background: #54b1b7;
   color: #ffffff;
 }
 .button.main {
   color: #ffffff;
-  background: #b5512d;
+  background: #07889b;
 }
 .button.main:hover {
-  background: #a14828;
+  background: #067383;
 }
 .button:hover {
   text-decoration: none;
@@ -401,7 +407,7 @@ img {
   max-width: 100%;
 }
 .nav-main {
-  background: #b5512d;
+  background: #07889b;
 }
 .nav-main li a {
   color: #ffffff;
@@ -413,7 +419,7 @@ img {
   max-height: 100%;
 }
 .nav-secondary {
-  background: #4965d6;
+  background: #66b9bf;
 }
 .nav-secondary li a {
   color: #e6e6e6;
@@ -434,10 +440,10 @@ img {
   background: #ffffff;
 }
 .nav-white li a {
-  color: #b5512d;
+  color: #07889b;
 }
 .nav-white .nav-title {
-  color: #b5512d;
+  color: #07889b;
 }
 .nav ul {
   padding: 0;
@@ -473,11 +479,11 @@ img {
   margin-left: 0;
   text-align: center;
   background: #ffffff;
-  border: 1px solid #b5512d;
+  border: 1px solid #07889b;
   margin-top: -1px;
 }
 .nav ul li ul li a {
-  color: #b5512d;
+  color: #07889b;
   display: block;
 }
 .nav ul li:hover a:hover {
@@ -524,7 +530,7 @@ img {
   margin-top: -3em;
 }
 .nav-side-main ul li {
-  background: #b5512d;
+  background: #07889b;
 }
 .nav-side-main ul li a {
   color: #ffffff;
@@ -685,7 +691,7 @@ textarea {
 .feed-item {
   padding-right: .75em;
   padding-bottom: 1em;
-  border-bottom: 3px solid #b5512d;
+  border-bottom: 3px solid #07889b;
 }
 .feed-item .feed-thumb {
   float: left;

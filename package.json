@@ -3,8 +3,14 @@
   "version": "0.1.5",
   "private": true,
   "devDependencies": {
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "0.0.7",
-    "gulp": "^3.6.2",
-    "gulp-less": "^1.2.3"
+    "gulp-less": "^1.2.3",
+    "gulp-util": "latest",
+    "gulp-sass": "latest",
+    "gulp-coffee": "latest",
+    "gulp-uglify": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest"
   }
 }

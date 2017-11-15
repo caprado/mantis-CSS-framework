@@ -1,5 +1,5 @@
-//setting up grid
-// witht he help of One%CSS
+// setting up grid layouts
+// With help of One%CSS
 
 .container{
 	max-width: @container-width;
@@ -23,7 +23,7 @@
 }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
-	margin: 0 3% 0 0;
+	margin: 0 2% 0 0;
 	display: block;
 	float: left;
 }
@@ -32,13 +32,19 @@
 	margin: 0%;
 }
 
+// Added First class looks a lot better on left and right rows
+.first{
+  margin-left: 0.5%;
+}
+
 .shaded{
 	background-color: rgba(0,0,0, .3);
 	height: 15px;
 }
 
+// Changed .col-2 to 13% issue with row floating to new line.
 .col-1 { width: 5.5%; }
-.col-2 { width: 14%; }
+.col-2 { width: 13%; }
 .col-3 { width: 22.5%; }
 .col-4 { width: 31%; }
 .col-5 { width: 39.5%; }
